@@ -25,7 +25,6 @@ class DisplayMovies extends Component {
     }
 
     componentDidMount() {
-        console.info(this.state.searchResults, this.props.inputData);
         if (this.state.searchResults.length === 0) {
             this.loadMovie()
         }else
@@ -97,8 +96,8 @@ class DisplayMovies extends Component {
                 <Row>
                     <Col className="resultContent">
                         {this.state.isLoading ? 
-                                <div class="spinner-border text-primary movie-loading" role="status">
-                                    <span class="sr-only">Loading...</span>
+                                <div className="spinner-border text-primary movie-loading" role="status">
+                                    <span className="sr-only">Loading...</span>
                                 </div> 
                                 : 
                                 <MovieList

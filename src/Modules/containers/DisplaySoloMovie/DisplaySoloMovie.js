@@ -21,7 +21,9 @@ class DisplaySoloMovie extends Component {
     }
 
     componentDidMount() {
-        this.loadMovie()
+        if(this.props.movieId){
+            this.loadMovie();
+        }
     }
 
     componentDidUpdate(prevProps, prevState) {
@@ -61,7 +63,7 @@ class DisplaySoloMovie extends Component {
             <Container>
                 <Row>
                     <Col className="soloMovieContainer">
-                        {this.state.isLoading ?
+                        {this.state.isLoading && this.props.movieId ?
                             <div class="spinner-border text-primary movie-loading" role="status">
                                 <span class="sr-only">Loading...</span>
                             </div>

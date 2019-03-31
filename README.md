@@ -1,76 +1,27 @@
-(1) img height
-(2) empty query str (solved)
-(3) img loading link to local default img
-(4) lock screen when loading
-(5) solomovie display div 
-(6) searching box style
+(1) project dependencies
+   1. create react app
+   2. react boostrap
+   3. jest
+   4. enzyme
 
+(2) main description of the app
+   1. run 'npm start' to init the app
+   2. in brower enter 'localhost:3000' to view the user interface
+   2. app init interface include search bar and list of popular movies
+   3. the input of search bar will trigger reload of related movies
+   4. click on individual movie item will lead to detailed page
+   5. detailed page include movie information and return button, click on return button will return to previous page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(3) limitation of the app
+   1. dont have session control
+   2. dont have page control
+   3. dont have error API data control
+   4. dont have router control (current only simple history storage be used)
+   5. dont have fully test
 
-## Available Scripts
+(4) expectation of the app
+   1. add page navigation function
+   2. set default data stream to avoid API failure
+   3. add router control to strength the page navigation
+   
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

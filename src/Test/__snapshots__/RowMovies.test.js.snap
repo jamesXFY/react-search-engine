@@ -1,0 +1,1939 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowMovies should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RowMovies
+    debug={true}
+    rowData={
+      Array [
+        Object {
+          "adult": false,
+          "backdrop_path": "/h3KN24PrOheHVYs9ypuOIdFBEpX.jpg",
+          "genre_ids": Array [
+            16,
+            10751,
+            12,
+          ],
+          "id": 166428,
+          "original_language": "en",
+          "original_title": "How to Train Your Dragon: The Hidden World",
+          "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+          "popularity": 763.258,
+          "poster_path": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+          "release_date": "2019-01-03",
+          "title": "How to Train Your Dragon: The Hidden World",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 1185,
+        },
+        Object {
+          "adult": false,
+          "backdrop_path": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
+          "genre_ids": Array [
+            28,
+            12,
+            878,
+          ],
+          "id": 299537,
+          "original_language": "en",
+          "original_title": "Captain Marvel",
+          "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+          "popularity": 408.793,
+          "poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+          "release_date": "2019-03-06",
+          "title": "Captain Marvel",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 3119,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          as="div"
+          onClick={[Function]}
+        >
+          <div
+            className="info-vote"
+            style={
+              Object {
+                "backgroundColor": "#4902a3",
+              }
+            }
+          >
+            <span>
+              77%
+            </span>
+          </div>
+          <div>
+            <ForwardRef(render)
+              alt="How to Train Your Dragon: The Hidden World"
+              fluid={true}
+              src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+            />
+          </div>
+          <div
+            className="info-section movie-title"
+          >
+            <span>
+              How to Train Your Dragon: The Hidden World
+            </span>
+          </div>
+          <div
+            className="info-section movie-release"
+          >
+            <span>
+              Jan 2019
+            </span>
+          </div>
+        </ForwardRef>,
+        <ForwardRef
+          as="div"
+          onClick={[Function]}
+        >
+          <div
+            className="info-vote"
+            style={
+              Object {
+                "backgroundColor": "#4902a3",
+              }
+            }
+          >
+            <span>
+              72%
+            </span>
+          </div>
+          <div>
+            <ForwardRef(render)
+              alt="Captain Marvel"
+              fluid={true}
+              src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+            />
+          </div>
+          <div
+            className="info-section movie-title"
+          >
+            <span>
+              Captain Marvel
+            </span>
+          </div>
+          <div
+            className="info-section movie-release"
+          >
+            <span>
+              Mar 2019
+            </span>
+          </div>
+        </ForwardRef>,
+      ],
+      "className": "movie-row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "166428",
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": Array [
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                77%
+              </span>
+            </div>,
+            <div>
+              <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />
+            </div>,
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                How to Train Your Dragon: The Hidden World
+              </span>
+            </div>,
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Jan 2019
+              </span>
+            </div>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                77%
+              </span>,
+              "className": "info-vote",
+              "style": Object {
+                "backgroundColor": "#4902a3",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "77%",
+              },
+              "ref": null,
+              "rendered": "77%",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "alt": "How to Train Your Dragon: The Hidden World",
+                "fluid": true,
+                "src": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "displayName": "Bootstrap(Image)",
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                How to Train Your Dragon: The Hidden World
+              </span>,
+              "className": "info-section movie-title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How to Train Your Dragon: The Hidden World",
+              },
+              "ref": null,
+              "rendered": "How to Train Your Dragon: The Hidden World",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Jan 2019
+              </span>,
+              "className": "info-section movie-release",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jan 2019",
+              },
+              "ref": null,
+              "rendered": "Jan 2019",
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "299537",
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": Array [
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                72%
+              </span>
+            </div>,
+            <div>
+              <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />
+            </div>,
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                Captain Marvel
+              </span>
+            </div>,
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Mar 2019
+              </span>
+            </div>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                72%
+              </span>,
+              "className": "info-vote",
+              "style": Object {
+                "backgroundColor": "#4902a3",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "72%",
+              },
+              "ref": null,
+              "rendered": "72%",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "alt": "Captain Marvel",
+                "fluid": true,
+                "src": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "displayName": "Bootstrap(Image)",
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Captain Marvel
+              </span>,
+              "className": "info-section movie-title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Captain Marvel",
+              },
+              "ref": null,
+              "rendered": "Captain Marvel",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Mar 2019
+              </span>,
+              "className": "info-section movie-release",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mar 2019",
+              },
+              "ref": null,
+              "rendered": "Mar 2019",
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": undefined,
+      "displayName": "Bootstrap(Row)",
+      "propTypes": undefined,
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            as="div"
+            onClick={[Function]}
+          >
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                77%
+              </span>
+            </div>
+            <div>
+              <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />
+            </div>
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                How to Train Your Dragon: The Hidden World
+              </span>
+            </div>
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Jan 2019
+              </span>
+            </div>
+          </ForwardRef>,
+          <ForwardRef
+            as="div"
+            onClick={[Function]}
+          >
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                72%
+              </span>
+            </div>
+            <div>
+              <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />
+            </div>
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                Captain Marvel
+              </span>
+            </div>
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Mar 2019
+              </span>
+            </div>
+          </ForwardRef>,
+        ],
+        "className": "movie-row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "166428",
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": Array [
+              <div
+                className="info-vote"
+                style={
+                  Object {
+                    "backgroundColor": "#4902a3",
+                  }
+                }
+              >
+                <span>
+                  77%
+                </span>
+              </div>,
+              <div>
+                <ForwardRef(render)
+                  alt="How to Train Your Dragon: The Hidden World"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+                />
+              </div>,
+              <div
+                className="info-section movie-title"
+              >
+                <span>
+                  How to Train Your Dragon: The Hidden World
+                </span>
+              </div>,
+              <div
+                className="info-section movie-release"
+              >
+                <span>
+                  Jan 2019
+                </span>
+              </div>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  77%
+                </span>,
+                "className": "info-vote",
+                "style": Object {
+                  "backgroundColor": "#4902a3",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "77%",
+                },
+                "ref": null,
+                "rendered": "77%",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  alt="How to Train Your Dragon: The Hidden World"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "alt": "How to Train Your Dragon: The Hidden World",
+                  "fluid": true,
+                  "src": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "displayName": "Bootstrap(Image)",
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  How to Train Your Dragon: The Hidden World
+                </span>,
+                "className": "info-section movie-title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "How to Train Your Dragon: The Hidden World",
+                },
+                "ref": null,
+                "rendered": "How to Train Your Dragon: The Hidden World",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Jan 2019
+                </span>,
+                "className": "info-section movie-release",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jan 2019",
+                },
+                "ref": null,
+                "rendered": "Jan 2019",
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "299537",
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": Array [
+              <div
+                className="info-vote"
+                style={
+                  Object {
+                    "backgroundColor": "#4902a3",
+                  }
+                }
+              >
+                <span>
+                  72%
+                </span>
+              </div>,
+              <div>
+                <ForwardRef(render)
+                  alt="Captain Marvel"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+                />
+              </div>,
+              <div
+                className="info-section movie-title"
+              >
+                <span>
+                  Captain Marvel
+                </span>
+              </div>,
+              <div
+                className="info-section movie-release"
+              >
+                <span>
+                  Mar 2019
+                </span>
+              </div>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  72%
+                </span>,
+                "className": "info-vote",
+                "style": Object {
+                  "backgroundColor": "#4902a3",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "72%",
+                },
+                "ref": null,
+                "rendered": "72%",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  alt="Captain Marvel"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "alt": "Captain Marvel",
+                  "fluid": true,
+                  "src": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "displayName": "Bootstrap(Image)",
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Captain Marvel
+                </span>,
+                "className": "info-section movie-title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Captain Marvel",
+                },
+                "ref": null,
+                "rendered": "Captain Marvel",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Mar 2019
+                </span>,
+                "className": "info-section movie-release",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mar 2019",
+                },
+                "ref": null,
+                "rendered": "Mar 2019",
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`should render correctly with given props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RowMovies
+    rowData={
+      Array [
+        Object {
+          "adult": false,
+          "backdrop_path": "/h3KN24PrOheHVYs9ypuOIdFBEpX.jpg",
+          "genre_ids": Array [
+            16,
+            10751,
+            12,
+          ],
+          "id": 166428,
+          "original_language": "en",
+          "original_title": "How to Train Your Dragon: The Hidden World",
+          "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+          "popularity": 763.258,
+          "poster_path": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+          "release_date": "2019-01-03",
+          "title": "How to Train Your Dragon: The Hidden World",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 1185,
+        },
+        Object {
+          "adult": false,
+          "backdrop_path": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
+          "genre_ids": Array [
+            28,
+            12,
+            878,
+          ],
+          "id": 299537,
+          "original_language": "en",
+          "original_title": "Captain Marvel",
+          "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+          "popularity": 408.793,
+          "poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+          "release_date": "2019-03-06",
+          "title": "Captain Marvel",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 3119,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          as="div"
+          onClick={[Function]}
+        >
+          <div
+            className="info-vote"
+            style={
+              Object {
+                "backgroundColor": "#4902a3",
+              }
+            }
+          >
+            <span>
+              77%
+            </span>
+          </div>
+          <div>
+            <ForwardRef(render)
+              alt="How to Train Your Dragon: The Hidden World"
+              fluid={true}
+              src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+            />
+          </div>
+          <div
+            className="info-section movie-title"
+          >
+            <span>
+              How to Train Your Dragon: The Hidden World
+            </span>
+          </div>
+          <div
+            className="info-section movie-release"
+          >
+            <span>
+              Jan 2019
+            </span>
+          </div>
+        </ForwardRef>,
+        <ForwardRef
+          as="div"
+          onClick={[Function]}
+        >
+          <div
+            className="info-vote"
+            style={
+              Object {
+                "backgroundColor": "#4902a3",
+              }
+            }
+          >
+            <span>
+              72%
+            </span>
+          </div>
+          <div>
+            <ForwardRef(render)
+              alt="Captain Marvel"
+              fluid={true}
+              src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+            />
+          </div>
+          <div
+            className="info-section movie-title"
+          >
+            <span>
+              Captain Marvel
+            </span>
+          </div>
+          <div
+            className="info-section movie-release"
+          >
+            <span>
+              Mar 2019
+            </span>
+          </div>
+        </ForwardRef>,
+      ],
+      "className": "movie-row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "166428",
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": Array [
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                77%
+              </span>
+            </div>,
+            <div>
+              <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />
+            </div>,
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                How to Train Your Dragon: The Hidden World
+              </span>
+            </div>,
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Jan 2019
+              </span>
+            </div>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                77%
+              </span>,
+              "className": "info-vote",
+              "style": Object {
+                "backgroundColor": "#4902a3",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "77%",
+              },
+              "ref": null,
+              "rendered": "77%",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "alt": "How to Train Your Dragon: The Hidden World",
+                "fluid": true,
+                "src": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "displayName": "Bootstrap(Image)",
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                How to Train Your Dragon: The Hidden World
+              </span>,
+              "className": "info-section movie-title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How to Train Your Dragon: The Hidden World",
+              },
+              "ref": null,
+              "rendered": "How to Train Your Dragon: The Hidden World",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Jan 2019
+              </span>,
+              "className": "info-section movie-release",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jan 2019",
+              },
+              "ref": null,
+              "rendered": "Jan 2019",
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "299537",
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": Array [
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                72%
+              </span>
+            </div>,
+            <div>
+              <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />
+            </div>,
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                Captain Marvel
+              </span>
+            </div>,
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Mar 2019
+              </span>
+            </div>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                72%
+              </span>,
+              "className": "info-vote",
+              "style": Object {
+                "backgroundColor": "#4902a3",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "72%",
+              },
+              "ref": null,
+              "rendered": "72%",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "alt": "Captain Marvel",
+                "fluid": true,
+                "src": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "displayName": "Bootstrap(Image)",
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Captain Marvel
+              </span>,
+              "className": "info-section movie-title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Captain Marvel",
+              },
+              "ref": null,
+              "rendered": "Captain Marvel",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Mar 2019
+              </span>,
+              "className": "info-section movie-release",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mar 2019",
+              },
+              "ref": null,
+              "rendered": "Mar 2019",
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": undefined,
+      "displayName": "Bootstrap(Row)",
+      "propTypes": undefined,
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            as="div"
+            onClick={[Function]}
+          >
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                77%
+              </span>
+            </div>
+            <div>
+              <ForwardRef(render)
+                alt="How to Train Your Dragon: The Hidden World"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+              />
+            </div>
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                How to Train Your Dragon: The Hidden World
+              </span>
+            </div>
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Jan 2019
+              </span>
+            </div>
+          </ForwardRef>,
+          <ForwardRef
+            as="div"
+            onClick={[Function]}
+          >
+            <div
+              className="info-vote"
+              style={
+                Object {
+                  "backgroundColor": "#4902a3",
+                }
+              }
+            >
+              <span>
+                72%
+              </span>
+            </div>
+            <div>
+              <ForwardRef(render)
+                alt="Captain Marvel"
+                fluid={true}
+                src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+              />
+            </div>
+            <div
+              className="info-section movie-title"
+            >
+              <span>
+                Captain Marvel
+              </span>
+            </div>
+            <div
+              className="info-section movie-release"
+            >
+              <span>
+                Mar 2019
+              </span>
+            </div>
+          </ForwardRef>,
+        ],
+        "className": "movie-row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "166428",
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": Array [
+              <div
+                className="info-vote"
+                style={
+                  Object {
+                    "backgroundColor": "#4902a3",
+                  }
+                }
+              >
+                <span>
+                  77%
+                </span>
+              </div>,
+              <div>
+                <ForwardRef(render)
+                  alt="How to Train Your Dragon: The Hidden World"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+                />
+              </div>,
+              <div
+                className="info-section movie-title"
+              >
+                <span>
+                  How to Train Your Dragon: The Hidden World
+                </span>
+              </div>,
+              <div
+                className="info-section movie-release"
+              >
+                <span>
+                  Jan 2019
+                </span>
+              </div>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  77%
+                </span>,
+                "className": "info-vote",
+                "style": Object {
+                  "backgroundColor": "#4902a3",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "77%",
+                },
+                "ref": null,
+                "rendered": "77%",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  alt="How to Train Your Dragon: The Hidden World"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "alt": "How to Train Your Dragon: The Hidden World",
+                  "fluid": true,
+                  "src": "https://image.tmdb.org/t/p/w500/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "displayName": "Bootstrap(Image)",
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  How to Train Your Dragon: The Hidden World
+                </span>,
+                "className": "info-section movie-title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "How to Train Your Dragon: The Hidden World",
+                },
+                "ref": null,
+                "rendered": "How to Train Your Dragon: The Hidden World",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Jan 2019
+                </span>,
+                "className": "info-section movie-release",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jan 2019",
+                },
+                "ref": null,
+                "rendered": "Jan 2019",
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "299537",
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": Array [
+              <div
+                className="info-vote"
+                style={
+                  Object {
+                    "backgroundColor": "#4902a3",
+                  }
+                }
+              >
+                <span>
+                  72%
+                </span>
+              </div>,
+              <div>
+                <ForwardRef(render)
+                  alt="Captain Marvel"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+                />
+              </div>,
+              <div
+                className="info-section movie-title"
+              >
+                <span>
+                  Captain Marvel
+                </span>
+              </div>,
+              <div
+                className="info-section movie-release"
+              >
+                <span>
+                  Mar 2019
+                </span>
+              </div>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  72%
+                </span>,
+                "className": "info-vote",
+                "style": Object {
+                  "backgroundColor": "#4902a3",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "72%",
+                },
+                "ref": null,
+                "rendered": "72%",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  alt="Captain Marvel"
+                  fluid={true}
+                  src="https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "alt": "Captain Marvel",
+                  "fluid": true,
+                  "src": "https://image.tmdb.org/t/p/w500/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "displayName": "Bootstrap(Image)",
+                  "propTypes": undefined,
+                  "render": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Captain Marvel
+                </span>,
+                "className": "info-section movie-title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Captain Marvel",
+                },
+                "ref": null,
+                "rendered": "Captain Marvel",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Mar 2019
+                </span>,
+                "className": "info-section movie-release",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mar 2019",
+                },
+                "ref": null,
+                "rendered": "Mar 2019",
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`should render correctly with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RowMovies />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [],
+      "className": "movie-row",
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": undefined,
+      "displayName": "Bootstrap(Row)",
+      "propTypes": undefined,
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [],
+        "className": "movie-row",
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

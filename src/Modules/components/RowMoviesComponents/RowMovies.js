@@ -8,8 +8,8 @@ const imgURL = "https://image.tmdb.org/t/p/w500";
 
 const RowMovies = (props) => {
     let resultList = null
-
-    resultList = (props.rowData.map(soloMovie => {
+    let rowData = props.rowData ? props.rowData : [];
+    resultList = (rowData.map(soloMovie => {
         let rDate = soloMovie.release_date;
         var date = new Date(rDate);
         var elapsed = date.toLocaleDateString('en-us', { month: 'short', year: "numeric" });

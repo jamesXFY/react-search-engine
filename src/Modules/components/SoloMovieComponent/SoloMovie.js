@@ -7,7 +7,9 @@ import { Image } from 'react-bootstrap';
 const imgURL = "https://image.tmdb.org/t/p/w500";
 
 const SoloMovie = (props) => {
-    let rDate = props.movie.release_date;
+
+    if(props.movie){
+        let rDate = props.movie.release_date;
     var date = new Date(rDate);
     var elapsed = date.toLocaleDateString('en-us', { year: "numeric" });
 
@@ -16,8 +18,6 @@ const SoloMovie = (props) => {
     let backToMain=()=>{
         props.backToMain();
     }
-
-
     return (
             <div className="movie-card">
                 <div className="movie-header" >
@@ -58,6 +58,11 @@ const SoloMovie = (props) => {
                 </div>
             </div>
     );
+    }else
+    {
+        return <div></div>
+    }
+    
 };
 
 export default SoloMovie;

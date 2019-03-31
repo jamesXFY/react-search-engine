@@ -1,0 +1,796 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplaySoloMovie should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DisplaySoloMovie
+    debug={true}
+    movieId="166428"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "as": "div",
+      "children": <ForwardRef(render)>
+        <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </ForwardRef>
+      </ForwardRef(render)>,
+      "fluid": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </ForwardRef>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>,
+          "className": "soloMovieContainer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              class="sr-only"
+            >
+              Loading...
+            </span>,
+            "class": "spinner-border text-primary movie-loading",
+            "role": "status",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading...",
+              "class": "sr-only",
+            },
+            "ref": null,
+            "rendered": "Loading...",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "as": "div",
+        "fluid": false,
+      },
+      "displayName": "Container",
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "div",
+        "children": <ForwardRef(render)>
+          <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>
+          </ForwardRef>
+        </ForwardRef(render)>,
+        "fluid": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>
+          </ForwardRef>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>,
+            "className": "soloMovieContainer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                class="sr-only"
+              >
+                Loading...
+              </span>,
+              "class": "spinner-border text-primary movie-loading",
+              "role": "status",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Loading...",
+                "class": "sr-only",
+              },
+              "ref": null,
+              "rendered": "Loading...",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "Bootstrap(Row)",
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "as": "div",
+          "fluid": false,
+        },
+        "displayName": "Container",
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`should render correctly with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DisplaySoloMovie />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "as": "div",
+      "children": <ForwardRef(render)>
+        <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <SoloMovie
+            backToMain={[Function]}
+            movie={Object {}}
+          />
+        </ForwardRef>
+      </ForwardRef(render)>,
+      "fluid": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <SoloMovie
+            backToMain={[Function]}
+            movie={Object {}}
+          />
+        </ForwardRef>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": <SoloMovie
+            backToMain={[Function]}
+            movie={Object {}}
+          />,
+          "className": "soloMovieContainer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "backToMain": [Function],
+            "movie": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "as": "div",
+        "fluid": false,
+      },
+      "displayName": "Container",
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "div",
+        "children": <ForwardRef(render)>
+          <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <SoloMovie
+              backToMain={[Function]}
+              movie={Object {}}
+            />
+          </ForwardRef>
+        </ForwardRef(render)>,
+        "fluid": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <SoloMovie
+              backToMain={[Function]}
+              movie={Object {}}
+            />
+          </ForwardRef>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": <SoloMovie
+              backToMain={[Function]}
+              movie={Object {}}
+            />,
+            "className": "soloMovieContainer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "backToMain": [Function],
+              "movie": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "Bootstrap(Row)",
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "as": "div",
+          "fluid": false,
+        },
+        "displayName": "Container",
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`should render correctly with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DisplaySoloMovie
+    movieId="166428"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "as": "div",
+      "children": <ForwardRef(render)>
+        <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </ForwardRef>
+      </ForwardRef(render)>,
+      "fluid": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          as="div"
+          className="soloMovieContainer"
+        >
+          <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>
+        </ForwardRef>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "children": <div
+            class="spinner-border text-primary movie-loading"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading...
+            </span>
+          </div>,
+          "className": "soloMovieContainer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              class="sr-only"
+            >
+              Loading...
+            </span>,
+            "class": "spinner-border text-primary movie-loading",
+            "role": "status",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Loading...",
+              "class": "sr-only",
+            },
+            "ref": null,
+            "rendered": "Loading...",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "div",
+          },
+          "displayName": "Col",
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "displayName": "Bootstrap(Row)",
+        "propTypes": undefined,
+        "render": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "as": "div",
+        "fluid": false,
+      },
+      "displayName": "Container",
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "div",
+        "children": <ForwardRef(render)>
+          <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>
+          </ForwardRef>
+        </ForwardRef(render)>,
+        "fluid": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ForwardRef
+            as="div"
+            className="soloMovieContainer"
+          >
+            <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>
+          </ForwardRef>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "div",
+            "children": <div
+              class="spinner-border text-primary movie-loading"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading...
+              </span>
+            </div>,
+            "className": "soloMovieContainer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                class="sr-only"
+              >
+                Loading...
+              </span>,
+              "class": "spinner-border text-primary movie-loading",
+              "role": "status",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Loading...",
+                "class": "sr-only",
+              },
+              "ref": null,
+              "rendered": "Loading...",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "div",
+            },
+            "displayName": "Col",
+            "render": [Function],
+          },
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "Bootstrap(Row)",
+          "propTypes": undefined,
+          "render": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "as": "div",
+          "fluid": false,
+        },
+        "displayName": "Container",
+        "render": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
