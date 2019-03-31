@@ -16,8 +16,10 @@
    1. dont have session control
    2. dont have page control
    3. dont have error API data control
-   4. dont have router control (current only simple history storage be used)
+   4. dont have router control
+    the previous pages will be stored in history, and when the user click go back from solo movie page, the history record will be popped up. but in the future, router should be involved in the app
    5. dont have fully test
+    the main components have been tested through enzyme, but the test did not cover all functionality
 
 (4) expectation of the app
    1. add page navigation function
