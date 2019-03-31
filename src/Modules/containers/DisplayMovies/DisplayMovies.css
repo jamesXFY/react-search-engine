@@ -1,0 +1,11 @@
+
+.resultContent{
+    background: #081b23;
+    min-height: 500px;
+}
+
+.movie-loading{
+    position: absolute;
+    top: 50%;
+    left:47%;
+}

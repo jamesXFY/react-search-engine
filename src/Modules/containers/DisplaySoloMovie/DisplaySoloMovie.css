@@ -1,0 +1,11 @@
+.soloMovieContainer{
+    min-height: 500px;
+    align-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.movie-loading{
+    position: absolute;
+    top: 50%;
+    left:47%;
+}

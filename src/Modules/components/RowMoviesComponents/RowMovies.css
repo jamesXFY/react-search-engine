@@ -1,0 +1,37 @@
+.info-vote {
+    position: absolute;
+    top: 8px;
+    margin-left: 16px;
+    border-radius : 8px;
+    width: 20%;
+    height : 21px;
+    font-size: 14px;
+    color : #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600
+    
+  }
+.info-section {
+    text-align:left;
+}
+
+.movie-title{
+  font-size : 18px;
+  color : #e3f4fc;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.movie-release{
+  color : #9fbbc7;
+  margin-bottom: 0px;
+}
+
+.movie-row{
+  margin-top: 10px
+}
+
+img{
+  border-radius: 3%;
+}
