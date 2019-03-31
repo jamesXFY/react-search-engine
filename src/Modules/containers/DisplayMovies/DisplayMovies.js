@@ -27,9 +27,8 @@ class DisplayMovies extends Component {
     componentDidMount() {
         if (this.state.searchResults.length === 0) {
             this.loadMovie()
-        }else
-        {
-            this.setState({isLoading:false});
+        } else {
+            this.setState({ isLoading: false });
         }
     }
 
@@ -42,7 +41,7 @@ class DisplayMovies extends Component {
             .then(
                 (results) => {
                     history.push("mainPage", this.state);
-                    this.setState({ searchResults: results.results, isLoading : false});
+                    this.setState({ searchResults: results.results, isLoading: false });
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
@@ -57,24 +56,27 @@ class DisplayMovies extends Component {
     timeout = null;
 
     searchMovie = (event) => {
-        if (event.target.value) {
-            this.setState({ title: event.target.value, isLoading: true })
-            clearTimeout(this.timeout);
-            this.timeout = setTimeout(() => {
-                fetch(endPointProps.apiURL + '/search/movie?api_key=' + endPointProps.apiKey + '&language=en-US&page=1&query=' + this.state.title)
-                    .then(res => res.json())
-                    .then(
-                        (results) => {
-                            history.push("mainPage", this.state);
-                            this.setState({ searchResults: results.results, isLoading : false});
-                        },
-                        (error) => {
-                            console.info(error);
-                        })
-            }, 1000)
-        } else {
-            this.loadMovie();
+        if (event.key === 'Enter') {
+            if (event.target.value) {
+                this.setState({ title: event.target.value, isLoading: true })
+                clearTimeout(this.timeout);
+                this.timeout = setTimeout(() => {
+                    fetch(endPointProps.apiURL + '/search/movie?api_key=' + endPointProps.apiKey + '&language=en-US&page=1&query=' + this.state.title)
+                        .then(res => res.json())
+                        .then(
+                            (results) => {
+                                history.push("mainPage", this.state);
+                                this.setState({ searchResults: results.results, isLoading: false });
+                            },
+                            (error) => {
+                                console.info(error);
+                            })
+                }, 1000)
+            } else {
+                this.loadMovie();
+            }
         }
+
     }
 
     // event handler for a search result item that is clicked
@@ -89,20 +91,18 @@ class DisplayMovies extends Component {
                 <Row>
                     <Col>
                         <div className="md-form mt-5 mb-5">
-                            <input className="form-control" type="text" placeholder="Search" aria-label="Search" onChange={this.searchMovie} />
+                            <input className="form-control" type="text" placeholder="Search" aria-label="Search" onKeyPress={this.searchMovie} />
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="resultContent">
-                        {this.state.isLoading ? 
-                                <div className="spinner-border text-primary movie-loading" role="status">
-                                    <span className="sr-only">Loading...</span>
-                                </div> 
-                                : 
-                                <MovieList
-                                defaultTitle={this.state.title}
-                                search={this.searchMovie}
+                        {this.state.isLoading ?
+                            <div className="spinner-border text-primary movie-loading" role="status">
+                                <span className="sr-only">Loading...</span>
+                            </div>
+                            :
+                            <MovieList
                                 results={this.state.searchResults}
                                 clickMovie={this.itemClicked} />}
                     </Col>

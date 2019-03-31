@@ -1,4 +1,4 @@
-(1) project dependencies
+(1) project main dependencies
    1. create react app
    2. react boostrap
    3. jest
